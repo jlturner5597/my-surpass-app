@@ -1,0 +1,83 @@
+/* DarkMode.css */
+
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #1b1b1b;
+    color: #f0f0f0;
+    line-height: 1.6;
+  }
+  
+  /* Container sections */
+  .container {
+    max-width: 480px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Form elements */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #444;
+    background-color: #3a3a3a;
+    color: #f0f0f0;
+    border-radius: 4px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #777;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 0.75rem;
+    background-color: #4747d1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5c5ce6;
+  }
+  
+  /* Headings and text */
+  h1,
+  h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  p {
+    margin: 1rem 0;
+  }
+  
+  .token-box {
+    margin-top: 1rem;
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 4px;
+    word-break: break-all;
+  }
+  
